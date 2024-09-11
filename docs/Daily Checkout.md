@@ -10,3 +10,10 @@ Vandaag zijn Kate Anouk  en ik onze project Squad Page gestart. We hebben een mi
 ## Learning journal 10/09
 
 vandaag hadden we een college over CSS Grids. Ik heb geleerd om layouts te maken, en ook dat ze responsive kunnen zin. Ik heb een webshop gemaakt die zijn layout veranderd ewanneer je je browser groter of kleiner maakt. Ik heb ook dit hele nuttige CSS remedy gevonden: https://github.com/jensimmons/cssremedy .
+
+## Learning journal 11/09
+
+vandaag heb ik een breakdownschets ontwerpt van hoe onze project uitziet op mobiel en laptop, en wat de verchillen zijn. we hebben een breakpoint gevonden waar het pagina anders moet uitzien om het goed leesbar te maken. Daarna hebben we de pagina geupdated om het soepeler te maken op github.
+
+## Learning journal 12/09
+vandaag heb ik
