@@ -15,5 +15,5 @@ vandaag hadden we een college over CSS Grids. Ik heb geleerd om layouts te maken
 
 vandaag heb ik een breakdownschets ontwerpt van hoe onze project uitziet op mobiel en laptop, en wat de verchillen zijn. we hebben een breakpoint gevonden waar het pagina anders moet uitzien om het goed leesbar te maken. Daarna hebben we de pagina geupdated om het soepeler te maken op github.
 
-## Learning journal 12/09
-vandaag heb ik
+## Learning journal 16/09
+vandaag heb ik Figma geleerd. We hebben breakdownschetsen gemaakt in Figma voor de laatste copie van onze website, beide de Desktop versie en de mobile versie. Ik heb ook geleerd over Hierarchy en hoe je dingen meer zichtbaar maakt op je website.
