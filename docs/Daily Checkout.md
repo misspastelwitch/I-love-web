@@ -17,3 +17,7 @@ vandaag heb ik een breakdownschets ontwerpt van hoe onze project uitziet op mobi
 
 ## Learning journal 16/09
 vandaag heb ik Figma geleerd. We hebben breakdownschetsen gemaakt in Figma voor de laatste copie van onze website, beide de Desktop versie en de mobile versie. Ik heb ook geleerd over Hierarchy en hoe je dingen meer zichtbaar maakt op je website.
+
+## Learning journal 25/09
+Vanaf nu ben ik bezig met de Antoni van Leeuwenhoek Ziekenhuis met een webinar pagina voor dokters vanuit Nederland en Indonesie om samen te werken. 
+Ik heb vandaag mijn eerste breakdownschets en wireframe gemaakt voor de hele site, die nu 11 paginas van staat. Ik heb heel veel te leren en doen maar ik ben benieuwd hoe ik dit kan afmaken. 
