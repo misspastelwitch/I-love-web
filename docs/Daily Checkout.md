@@ -21,3 +21,7 @@ vandaag heb ik Figma geleerd. We hebben breakdownschetsen gemaakt in Figma voor 
 ## Learning journal 25/09
 Vanaf nu ben ik bezig met de Antoni van Leeuwenhoek Ziekenhuis met een webinar pagina voor dokters vanuit Nederland en Indonesie om samen te werken. 
 Ik heb vandaag mijn eerste breakdownschets en wireframe gemaakt voor de hele site, die nu 11 paginas van staat. Ik heb heel veel te leren en doen maar ik ben benieuwd hoe ik dit kan afmaken. 
+
+## Learning journal 27/09
+
+We hebben vandaag een code en design review. Ik had goede feedback gehaald over de html voor mijn project. Mijn semantiek is goed maar ik moet minder Divs gebruiken. Krijn heeft gezegd dat ik meer naar mijn HTML kijken en niet straight into the CSS gaan. 
