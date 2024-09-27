@@ -24,4 +24,4 @@ Ik heb vandaag mijn eerste breakdownschets en wireframe gemaakt voor de hele sit
 
 ## Learning journal 27/09
 
-We hebben vandaag een code en design review. Ik had goede feedback gehaald over de html voor mijn project. Mijn semantiek is goed maar ik moet minder Divs gebruiken. Krijn heeft gezegd dat ik meer naar mijn HTML kijken en niet straight into the CSS gaan. 
+We hebben vandaag een code en design review. Ik had goede feedback gehaald over de html voor mijn project. Mijn semantiek is goed maar ik moet minder Divs gebruiken. Krijn heeft gezegd dat ik meer naar mijn HTML kijken en niet straight into the CSS gaan. Waar kan ik alts grebruiken in plaats van divs? Waar kan ik selectors gebruiken in plaats van divs met namen? Hoe kan ik zorgen dat mijn cofde leesbar is voor iedereen? Dit is de link naar mijn issue dat Krijn heeft geschreven: https://github.com/misspastelwitch/the-client-website/issues/1
