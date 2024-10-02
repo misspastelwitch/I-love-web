@@ -29,3 +29,7 @@ We hebben vandaag een code en design review. Ik had goede feedback gehaald over 
 ## Learning journal 30/09
 
 Vandaag heb ik over Layouts geleerd. We hebben 9 oefningen gedaan die verschillende types layouts heeft, en we moesten onze code aanpassen om alleszoals de examples maken. Ik heb ook mijn portflow geupdated!
+
+## Learning journal 02/10
+
+Vandaag heb ik niet zo veel gedaan. Ik heb over leesbaarheid gelezen in meerdere artikels, en gezien hoe ik woorden en paragraphs kan veranderen om ze leesbaar te houden. Ik vind dit heel interessant. helaas hadde ik geen motivatie om vandaag met code te werken, dus ik heb alleen maar documenten over em en clamp geleesd. Misschien kan ik op vrijdag mijn code aanpassen zodat het leesbaar op beide mobiel en laptop is. Ik wil ook de font veranderen naar die van de project.
