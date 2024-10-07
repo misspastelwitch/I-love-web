@@ -25,7 +25,7 @@ function addEntryToDom(event) {
         month[10] = 'November';
         month[11] = 'December';
         const n = month[d.getMonth()];
-        const day = d.getDay();
+        const day = d.getDate();
         const year = d.getFullYear();
 
 
