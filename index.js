@@ -65,3 +65,41 @@ function addEntryToDom(event) {
 }
 
 entryForm.addEventListener(`submit`, addEntryToDom);
+// Load blog posts from the server when the page loads
+window.onload = function() {
+        fetch('/posts')
+        .then(response => response.json())
+        .then(posts => {
+            let savedPostsDiv = document.getElementById('savedPosts');
+            savedPostsDiv.innerHTML = '';
+            posts.forEach((post, index) => {
+                savedPostsDiv.innerHTML += `<div><h3>Post #${index + 1}</h3><p>${post}</p></div><hr>`;
+            });
+        });
+    }
+    
+    // Save the blog post to the server
+    function saveBlogPost() {
+        let blogPost = document.getElementById('blogPost').value;
+    
+        if (blogPost) {
+            fetch('/posts', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({ post: blogPost })
+            })
+            .then(response => response.text())
+            .then(message => {
+                alert(message);
+                document.getElementById('blogPost').value = '';
+                window.onload();  // Reload the posts
+            })
+            .catch(error => {
+                console.error('Error:', error);
+            });
+        } else {
+            alert("Blog post cannot be empty!");
+        }
+    }
