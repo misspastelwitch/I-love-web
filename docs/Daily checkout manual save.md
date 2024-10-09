@@ -33,3 +33,10 @@ Vandaag heb ik over Layouts geleerd. We hebben 9 oefningen gedaan die verschille
 
 **Learning journal 02/10**
 Vandaag heb ik niet zo veel gedaan. Ik heb over leesbaarheid gelezen in meerdere artikels, en gezien hoe ik woorden en paragraphs kan veranderen om ze leesbaar te houden. Ik vind dit heel interessant. helaas hadde ik geen motivatie om vandaag met code te werken, dus ik heb alleen maar documenten over em en clamp geleesd. Misschien kan ik op vrijdag mijn code aanpassen zodat het leesbaar op beide mobiel en laptop is. Ik wil ook de font veranderen naar die van de project.
+
+**Learning journal 08/10**
+
+Vandaag heb ik een echte site voor mijn I Love Web gemaakt. Helaas is ie nog niet klaar want ik moet de blog posts die ik schrijf bewaren en ik weet nog niet hoe.. misschien met Node? In ieder geval werkt het tot dat ik mijn browser sluit. 
+
+**Learning journal 10/10**
+Vandaag heb ik mijn ReadMe voor de Antoni van Leeuwenhoek project geschreven. Ik ben bang dat ik niet genoeg schetsen heb maar ik ga allen toevoegen die ik kan. Hoe kan ik meer stap-voor-stap proof houden van mijn werk? Hoe kan ik mijn comments bewaren voor de comment sectie in mijn site? Hoe kan ik de video player in mijn site maken zodat het werkt? 
