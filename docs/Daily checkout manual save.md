@@ -40,3 +40,6 @@ Vandaag heb ik een echte site voor mijn I Love Web gemaakt. Helaas is ie nog nie
 
 **Learning journal 10/10**
 Vandaag heb ik mijn ReadMe voor de Antoni van Leeuwenhoek project geschreven. Ik ben bang dat ik niet genoeg schetsen heb maar ik ga allen toevoegen die ik kan. Hoe kan ik meer stap-voor-stap proof houden van mijn werk? Hoe kan ik mijn comments bewaren voor de comment sectie in mijn site? Hoe kan ik de video player in mijn site maken zodat het werkt? 
+
+**Learning journal 14/10**
+Vandaag zijn we begonnen met Accessibility. We hebben over de AAAC conventies en hoe je een site acessible maakt. We zijn ook begonnen met een audit te doen op een bepaalde site. Ik heb evgstart.nl gekozen. Ik heb een lijst gemaakt met de uitslag van mijn lighthouse test, en ook een paar handmatige test uitslagen. Ik moet nog steeds een screen reader test uitvoeren.
