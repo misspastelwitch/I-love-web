@@ -43,3 +43,6 @@ Vandaag heb ik mijn ReadMe voor de Antoni van Leeuwenhoek project geschreven. Ik
 
 **Learning journal 14/10**
 Vandaag zijn we begonnen met Accessibility. We hebben over de AAAC conventies en hoe je een site acessible maakt. We zijn ook begonnen met een audit te doen op een bepaalde site. Ik heb evgstart.nl gekozen. Ik heb een lijst gemaakt met de uitslag van mijn lighthouse test, en ook een paar handmatige test uitslagen. Ik moet nog steeds een screen reader test uitvoeren.
+
+**Learning journal 14/10**
+Vandaag heb ik mijn WCAG audit gepresenteerd. Het ging meestal goed maar ik moet leren om beter te presenteren. Ik heb feedback gekregen van Tristan, mijn mentor. Daarna heb ik met mijn mentor groep samen gewerkt om een html site met goede UX maken. We hadden over Afbeeldingen, Accordeons, Pop-ups, headings, Labels en Links. Accordeons vind ik heel leuk om te gebruiken, en ik kan ze misschien gebruiken om mijn comments sectie te verbergen. Ik wil ook goede headings, labels en links gebruiken om mijn project goed toegankelijk te maken. 
