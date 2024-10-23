@@ -46,3 +46,5 @@ Vandaag zijn we begonnen met Accessibility. We hebben over de AAAC conventies en
 
 **Learning journal 14/10**
 Vandaag heb ik mijn WCAG audit gepresenteerd. Het ging meestal goed maar ik moet leren om beter te presenteren. Ik heb feedback gekregen van Tristan, mijn mentor. Daarna heb ik met mijn mentor groep samen gewerkt om een html site met goede UX maken. We hadden over Afbeeldingen, Accordeons, Pop-ups, headings, Labels en Links. Accordeons vind ik heel leuk om te gebruiken, en ik kan ze misschien gebruiken om mijn comments sectie te verbergen. Ik wil ook goede headings, labels en links gebruiken om mijn project goed toegankelijk te maken. 
+**Learning journal 23/10**
+Vandaag heb ik een sprint review gedaan met mijn team. We hadden ook een task gedaan waar we geen muis kunt gebruiken om te zien hoe mensen met beperkingen het computer gebruiken. Daarna hebben we gelezen over shortcuts op de keyboard die navigeren makkelijker maakt voor mensen met beperkingen. Ik heb mijn readMe wat voller gemaakt en een descriptie van wat ik heb gedaan geschreven. Ik wil greeg meer vragen stellen in de volgende Team Review.
