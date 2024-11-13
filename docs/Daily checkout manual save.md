@@ -51,3 +51,6 @@ Vandaag heb ik een sprint review gedaan met mijn team. We hadden ook een task ge
 
 **Learning journal 23/10**
 vandaag hadden we over Style guides en hoe we een huisstijl kunnen gebruiken. We hebben al onze verschillende websites styles verzameld en daarna op een style gekozen voor de hele website. Helaas was Tessa niet bij dus we konde het niet definitief niet maken. 
+
+**Learning journal 23/10**
+Vandaag hebben we onze stylesheet gemaakt. We hadden over CSS specificity en cases, bijvoorbeeld Camel cases en Kebab cases. Het was moeilijk om met iedereen te communiceren want we in een Teams call zat. 
