@@ -49,8 +49,10 @@ Vandaag heb ik mijn WCAG audit gepresenteerd. Het ging meestal goed maar ik moet
 **Learning journal 23/10**
 Vandaag heb ik een sprint review gedaan met mijn team. We hadden ook een task gedaan waar we geen muis kunt gebruiken om te zien hoe mensen met beperkingen het computer gebruiken. Daarna hebben we gelezen over shortcuts op de keyboard die navigeren makkelijker maakt voor mensen met beperkingen. Ik heb mijn readMe wat voller gemaakt en een descriptie van wat ik heb gedaan geschreven. Ik wil greeg meer vragen stellen in de volgende Team Review.
 
-**Learning journal 23/10**
+**Learning journal 13/10**
 vandaag hadden we over Style guides en hoe we een huisstijl kunnen gebruiken. We hebben al onze verschillende websites styles verzameld en daarna op een style gekozen voor de hele website. Helaas was Tessa niet bij dus we konde het niet definitief niet maken. 
 
-**Learning journal 23/10**
+**Learning journal 14/10**
 Vandaag hebben we onze stylesheet gemaakt. We hadden over CSS specificity en cases, bijvoorbeeld Camel cases en Kebab cases. Het was moeilijk om met iedereen te communiceren want we in een Teams call zat. 
+
+**Learning journal 15/11**
