@@ -56,3 +56,4 @@ vandaag hadden we over Style guides en hoe we een huisstijl kunnen gebruiken. We
 Vandaag hebben we onze stylesheet gemaakt. We hadden over CSS specificity en cases, bijvoorbeeld Camel cases en Kebab cases. Het was moeilijk om met iedereen te communiceren want we in een Teams call zat. 
 
 **Learning journal 15/11**
+We hebben vandaag de sprint review gedaan voor onze stylesheet. Onze css was gekoppeld aan onze HTML maar werkt niet, dus we hebben een paar issues gekregen over hoe onze stylesheet eruitziet. Daarnaast hebben we een issue gekregen over onze readme, het was nog niet af en was niet duidelijk wat we met de stylesheet wilden zeggen. Daarna heb ik op de responsiveheid van mijn client page gewerkt. Ik heb een paar articles kunnen verbeteren voor mobiel maar ik ben nog steeds niet gelukkig mee.
