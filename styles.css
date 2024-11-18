@@ -1,10 +1,3 @@
-/* My Starter Template */
-
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
 
 html {
   margin: 0;
@@ -19,13 +12,51 @@ body {
   color: lightcoral;
   margin: 0 auto;
   padding: 0;
-  max-width: 900px;
+  max-width: 1100px;
+}
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+
+.wrapper {
+  padding: 1em;
+  width: 400px;
+  margin: 0 auto;
+  text-align: start;
+}
+
+.container {
+  display: inline-block;
+  height: 64px;
+  vertical-align: middle;
+  overflow: hidden;
+}
+
+.container ul {
+  animation: cycle-items 6s steps(5) alternate infinite;
+}
+
+.container li {
+  font-size: 40px;
+  height: 64px;
+}
+ 
+@keyframes cycle-items {
+  to {
+    transform: translateY(-100%)
+  }
 }
 
 /* Global Typography */
 
 h1 {
-  font-size: 3rem;
+  font-size: 4cm;
 }
 
 h2 {
@@ -50,7 +81,7 @@ button {
   font-size: 1.2rem;
   padding: 0.5em 1em;
   border: none;
-  background-color: aquamarine;
+  background-color: lightcoral;
   color: #0a2472;
   font-family: 'Space Mono', monospace;
 }
@@ -59,7 +90,7 @@ button {
 
 header {
   text-align: center;
-  margin: 1em auto;
+  margin: 0em auto;
 }
 
 .section {
@@ -71,7 +102,6 @@ header {
 .container {
   width: 100%;
   margin: 0 auto;
-  padding: 1em 1em;
 }
 
 .container-row {
@@ -117,14 +147,30 @@ input[class^='btn-']:hover {
   transform: scale(1.08);
 }
 
-/* Project Starts Here */
+#blank {
+  background-color: unset;
+  width: 40%;
+  height: 10em;
+}
+/*images*/
 
-/* Journal Entry Section */
-
-/* Title */
-
-.entry-text-title {
-  width: 20em;
+#girl {
+  float: right;
+  
+  }
+  #window {
+    float: right;
+    transform: rotate(15deg)
+    }
+    #polaroid {
+      float: right;
+      transform: rotate(350deg)
+      }
+/*Articles*/
+#text {
+align-content: start;
+  width: 60%;
+  height: 15em;
   margin: 1em auto;
   padding: 1em;
   border-radius: 2px;
@@ -132,118 +178,29 @@ input[class^='btn-']:hover {
   background-color: lightgoldenrodyellow;
   font-family: 'Space Mono', monospace;
 }
-
-.entry-text-title:focus {
-  outline-color: lightcoral;
-  font-family: 'Space Mono', monospace;
-  color: lightcoral;
-  font-size: 1rem;
-}
-
-.entry-text-title::placeholder {
-  color: lightcoral;
-  font-family: 'Space Mono', monospace;
-  font-size: 1rem;
-}
-
-.entry-text-title::-ms-value {
-  color: lightcoral;
-  font-family: 'Space Mono', monospace;
-  font-size: 1rem;
-}
-
-/* Text Box */
-
-.container-row-journal {
-  display: flex;
-  justify-content: center;
-}
-
-.entry-form {
-  max-width: 100%;
-  margin: 0 auto;
-}
-
-.journal-label {
-  display: block;
-  line-height: 1.6;
-  font-size: 1.2rem;
-  font-weight: 700;
-}
-
-.entry-text-box {
-  width: 100%;
-  height: 20em;
-  margin: 1em auto;
-  padding: 1em;
-  border-radius: 2px;
-  border: unset;
-  background-color: lightgoldenrodyellow;
-  font-family: 'Space Mono', monospace;
-}
-
-@media (min-width: 769px) {
-  .entry-text-box {
-    width: 40em;
-    height: 20em;
+#text2 {
+    width: 40%;
+    height: 17em;
     margin: 1em auto;
     padding: 1em;
     border-radius: 2px;
     border: unset;
-    background-color: lightgoldenrodyellow;
+    background-color: rgb(250, 230, 210);
     font-family: 'Space Mono', monospace;
   }
-}
 
-.entry-text-box:focus {
-  outline-color: lightcoral;
-  font-family: 'Space Mono', monospace;
-  color: lightcoral;
-  font-size: 1rem;
-}
-
-.entry-text-box::placeholder {
-  color: lightcoral;
-  font-family: 'Space Mono', monospace;
-  font-size: 1rem;
-}
-
-.entry-submit-btn {
-  margin: 0;
-}
-
-/* Journal Results Section */
-
-.sectionEntryResults {
+footer {
   width: 100%;
-  margin: 0 auto;
-}
-
-.entryResultRow {
-  /* display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  width: 100%;
-  margin: 1em auto; */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-}
-
-.single-entry-div {
-  max-width: 100%;
-
-  margin: 1em auto;
-  padding: 1em 1em;
-}
-
-.single-entry-date {
-  background-color: lightgoldenrodyellow;
-  width: 100%;
-}
-
-.heading-results {
-  text-align: center;
-  text-decoration: underline;
-  text-decoration-color: lightgoldenrodyellow;
-}
+  display: inline-block;
+  margin: 2em 0;
+  height: 70px;
+  background-color: lightcoral;
+      width: 50%;
+      text-align: center;
+      max-width: 600px
+      text-align: left;
+      line-height: 70px;
+      text-decoration: none;
+      color: white;
+      font-weight: bold; 
+  }
