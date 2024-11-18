@@ -55,5 +55,9 @@ vandaag hadden we over Style guides en hoe we een huisstijl kunnen gebruiken. We
 **Learning journal 14/10**
 Vandaag hebben we onze stylesheet gemaakt. We hadden over CSS specificity en cases, bijvoorbeeld Camel cases en Kebab cases. Het was moeilijk om met iedereen te communiceren want we in een Teams call zat. 
 
+
 **Learning journal 15/11**
 We hebben vandaag de sprint review gedaan voor onze stylesheet. Onze css was gekoppeld aan onze HTML maar werkt niet, dus we hebben een paar issues gekregen over hoe onze stylesheet eruitziet. Daarnaast hebben we een issue gekregen over onze readme, het was nog niet af en was niet duidelijk wat we met de stylesheet wilden zeggen. Daarna heb ik op de responsiveheid van mijn client page gewerkt. Ik heb een paar articles kunnen verbeteren voor mobiel maar ik ben nog steeds niet gelukkig mee.
+
+**Learning journal 18/10**
+Vandaag hadden we over fonts. Ik heb een font zelf gemaakt en geprobeerd in mijn look & feel - corporate identity toe te voegen. Helaas werkte dat niet. Daarnaast heb ik gezien hoe verschillende font units werken. Ik heb een css en html file in de look & feel - corporate identity gemaakt waar alle sections hetzelfde uitzien maar zijn met verschillende units gecodeerd. 
