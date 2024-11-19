@@ -186,14 +186,13 @@ align-content: start;
     border-radius: 2px;
     border: unset;
     transform: skewY(-2deg);
-    transform: rotate(-10deg);
+    transform: rotate(-5deg);
     background-color: rgb(250, 230, 210);
     font-family: 'Space Mono', monospace;
   }
 
   #washitapebox {
 
-  }
   #text3 {
     align-content: start;
       width: 50%;
@@ -206,6 +205,7 @@ align-content: start;
       background-color: lightgoldenrodyellow;
       font-family: 'Space Mono', monospace;
     }
+  }
 footer {
   width: 100%;
   display: inline-block;
