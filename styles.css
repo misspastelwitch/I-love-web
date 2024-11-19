@@ -170,7 +170,7 @@ input[class^='btn-']:hover {
 #text {
 align-content: start;
   width: 60%;
-  height: 15em;
+  height: 14em;
   margin: 1em auto;
   padding: 1em;
   border-radius: 2px;
@@ -185,10 +185,23 @@ align-content: start;
     padding: 1em;
     border-radius: 2px;
     border: unset;
+    transform: skewY(-2deg);
+    transform: rotate(-10deg);
     background-color: rgb(250, 230, 210);
     font-family: 'Space Mono', monospace;
   }
-
+  #text3 {
+    align-content: start;
+      width: 50%;
+      height: 12em;
+      margin: 1em auto;
+      padding: 1em;
+      border-radius: 2px;
+      border: unset;
+      transform: rotate(2deg);
+      background-color: lightgoldenrodyellow;
+      font-family: 'Space Mono', monospace;
+    }
 footer {
   width: 100%;
   display: inline-block;
