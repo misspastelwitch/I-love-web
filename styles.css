@@ -115,7 +115,7 @@ input[class='button']:hover {
 #blank {
   background-color: unset;
   width: 40%;
-  height: 10em;
+  height: 8em;
 }
 
 /* funky sentences */
@@ -233,7 +233,6 @@ note{
 footer {
 
   width: 100%;
-  display: inline-block;
   margin: 2em 0;
   height: 70px;
   background-color: lightcoral;
