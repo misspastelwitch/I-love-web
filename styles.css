@@ -13,7 +13,7 @@ body {
   color: lightcoral;
   margin: 0 auto;
   padding: 0;
-  max-width: 1100px;
+  max-width: 1400px;
 }
 * {
   padding: 0;
@@ -115,7 +115,7 @@ input[class='button']:hover {
 #blank {
   background-color: unset;
   width: 40%;
-  height: 8em;
+  height: 7em;
 }
 
 /* funky sentences */
@@ -162,7 +162,14 @@ input[class='button']:hover {
       float: right;
       transform: rotate(350deg)
       }
-      
+      #stickerbundle {
+        float: left;
+        transform: rotate(350deg)
+        }
+        #stickerbundle2 {
+          float: right;
+          }
+  
       
 /*sticky tape*/
 
@@ -214,6 +221,10 @@ note{
     font-family: 'Space Mono', monospace;
   }
 
+  #github {
+  margin-left: 32em;  
+  }
+
   /*  Post-it three  */
 
     #text3 {
@@ -231,17 +242,6 @@ note{
 
 /*  footer  */
 footer {
-
-  width: 100%;
-  margin: 2em 0;
-  height: 70px;
-  background-color: lightcoral;
-      width: 50%;
       text-align: center;
-      max-width: 600px
-      text-align: right;
       line-height: 70px;
-      text-decoration: none;
-      color: white;
-      font-weight: bold; 
   }
