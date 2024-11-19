@@ -24,7 +24,7 @@ body {
   box-sizing: border-box;
 }
 
-
+/* funky sentences */
 .wrapper {
   padding: 1em;
   width: 400px;
@@ -77,17 +77,7 @@ textarea {
   font-size: 1rem;
 }
 
-button {
-  display: block;
-  font-size: 1.2rem;
-  padding: 0.5em 1em;
-  border: none;
-  background-color: lightcoral;
-  color: #0a2472;
-  font-family: 'Space Mono', monospace;
-}
-
-/* Section Container Positions, Spacing, Utilities */
+/* HEADER */
 
 header {
   text-align: center;
@@ -100,17 +90,8 @@ header {
   margin: 1em auto;
 }
 
-.container {
-  width: 100%;
-  margin: 0 auto;
-}
 
-.container-row {
-  width: 90%;
-  margin: 0 auto;
-}
-
-/* Button Standard */
+/* Buttons */
 
 .btn-main,
 .btn-light,
@@ -139,6 +120,16 @@ header {
   background-color: #0a2472;
 }
 
+button {
+  display: block;
+  font-size: 1.2rem;
+  padding: 0.5em 1em;
+  border: none;
+  background-color: lightcoral;
+  color: #0a2472;
+  font-family: 'Space Mono', monospace;
+}
+
 button[class^='btn-']:hover,
 a[class^='btn-']:hover,
 input[class^='btn-']:hover {
@@ -153,7 +144,8 @@ input[class^='btn-']:hover {
   width: 40%;
   height: 10em;
 }
-/*images*/
+
+/*IMAGES*/
 
 #girl {
   float: right;
@@ -167,19 +159,46 @@ input[class^='btn-']:hover {
       float: right;
       transform: rotate(350deg)
       }
-/*Articles*/
-#text {
-align-content: start;
+      
+      
+/*sticky tape*/
+
+note{
+    position: absolute;
+    background: url('./docs/assets/washitape3.png') center/cover no-repeat;
+    width: 20%;
+    height: 20%;
+    top: -10%;
+    left:50%;
+    transform: translateX(-50%);
+  }
+  .note::after {
+    content: '';
+    position: absolute;
+    background: url('./docs/assets/washitape3.png') center/cover no-repeat;
+    width: 20%;
+    height: 17%;
+    top: -10%;
+    left:50%;
+    transform: translateX(-50%);
+      }
+
+/*  Post-it one  */
+#text1 {
   width: 60%;
   height: 14em;
   margin: 1em auto;
   padding: 1em;
   border-radius: 2px;
   border: unset;
+  transform: rotate(0deg);
   background-color: lightgoldenrodyellow;
   font-family: 'Space Mono', monospace;
 }
+
+/*  Post-it two  */
 #text2 {
+
     width: 40%;
     height: 17em;
     margin: 1em auto;
@@ -192,9 +211,9 @@ align-content: start;
     font-family: 'Space Mono', monospace;
   }
 
-  #washitapebox {
+  /*  Post-it three  */
 
-  #text3 {
+    #text3 {
     align-content: start;
       width: 50%;
       height: 12em;
@@ -206,7 +225,8 @@ align-content: start;
       background-color: lightgoldenrodyellow;
       font-family: 'Space Mono', monospace;
     }
-  }
+
+/*  footer  */
 footer {
   width: 100%;
   display: inline-block;
