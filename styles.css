@@ -24,35 +24,7 @@ body {
   box-sizing: border-box;
 }
 
-/* funky sentences */
-.wrapper {
-  padding: 1em;
-  width: 400px;
-  margin: 0 auto;
-  text-align: start;
-}
 
-.container {
-  display: inline-block;
-  height: 64px;
-  vertical-align: middle;
-  overflow: hidden;
-}
-
-.container ul {
-  animation: cycle-items 6s steps(5) alternate infinite;
-}
-
-.container li {
-  font-size: 40px;
-  height: 64px;
-}
- 
-@keyframes cycle-items {
-  to {
-    transform: translateY(-100%)
-  }
-}
 
 /* Global Typography */
 
@@ -93,7 +65,7 @@ header {
 
 /* Buttons */
 
-.btn-main,
+.button,
 .btn-light,
 .btn-dark {
   display: block;
@@ -105,9 +77,11 @@ header {
   cursor: pointer;
 }
 
-.btn-main {
+.button {
   color: lightgoldenrodyellow;
   background-color: lightcoral;
+  width: 15em;
+
 }
 
 .btn-light {
@@ -126,13 +100,12 @@ button {
   padding: 0.5em 1em;
   border: none;
   background-color: lightcoral;
-  color: #0a2472;
+  color: lightgoldenrodyellow;
   font-family: 'Space Mono', monospace;
 }
 
-button[class^='btn-']:hover,
-a[class^='btn-']:hover,
-input[class^='btn-']:hover {
+a[class='button']:hover,
+input[class='button']:hover {
   background-color: lightgoldenrodyellow;
   color: lightcoral;
   font-weight: 700;
@@ -143,6 +116,36 @@ input[class^='btn-']:hover {
   background-color: unset;
   width: 40%;
   height: 10em;
+}
+
+/* funky sentences */
+.wrapper {
+  padding: 1em;
+  width: 400px;
+  margin: 0 auto;
+  text-align: start;
+}
+
+.container {
+  display: inline-block;
+  height: 64px;
+  vertical-align: middle;
+  overflow: hidden;
+}
+
+.container ul {
+  animation: cycle-items 4s steps(6) alternate infinite;
+}
+
+.container li {
+  font-size: 40px;
+  height: 64px;
+}
+ 
+@keyframes cycle-items {
+  to {
+    transform: translateY(-100%)
+  }
 }
 
 /*IMAGES*/
@@ -228,6 +231,7 @@ note{
 
 /*  footer  */
 footer {
+
   width: 100%;
   display: inline-block;
   margin: 2em 0;
@@ -236,7 +240,7 @@ footer {
       width: 50%;
       text-align: center;
       max-width: 600px
-      text-align: left;
+      text-align: right;
       line-height: 70px;
       text-decoration: none;
       color: white;
