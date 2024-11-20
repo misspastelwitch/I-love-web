@@ -60,4 +60,8 @@ Vandaag hebben we onze stylesheet gemaakt. We hadden over CSS specificity en cas
 We hebben vandaag de sprint review gedaan voor onze stylesheet. Onze css was gekoppeld aan onze HTML maar werkt niet, dus we hebben een paar issues gekregen over hoe onze stylesheet eruitziet. Daarnaast hebben we een issue gekregen over onze readme, het was nog niet af en was niet duidelijk wat we met de stylesheet wilden zeggen. Daarna heb ik op de responsiveheid van mijn client page gewerkt. Ik heb een paar articles kunnen verbeteren voor mobiel maar ik ben nog steeds niet gelukkig mee.
 
 **Learning journal 18/10**
-Vandaag hadden we over fonts. Ik heb een font zelf gemaakt en geprobeerd in mijn look & feel - corporate identity toe te voegen. Helaas werkte dat niet. Daarnaast heb ik gezien hoe verschillende font units werken. Ik heb een css en html file in de look & feel - corporate identity gemaakt waar alle sections hetzelfde uitzien maar zijn met verschillende units gecodeerd. 
+Vandaag hadden we over fonts. Ik heb een font zelf gemaakt en geprobeerd in mijn look & feel - corporate identity toe te voegen. Helaas werkte dat niet. Daarnaast heb ik gezien hoe verschillende font units werken. Ik heb een css en html file in de look & feel - corporate identity gemaakt waar alle sections hetzelfde uitzien maar zijn met verschillende units gecodeerd.
+
+**Learning journal 18/10**
+Voor HTML heb ik geleerd wat voor verschillende HTML forms er zijn, hoe je die gebruikt, en hoe ze eruit zien.
+Voor CSS heb ik geleerd hoe je een radio en range styled, hoe je :focus gebruikt, en hoe je values en selectors gebruikt. Ik kan makkelijk een text of submit gebruiken voor het opdracht.
