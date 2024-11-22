@@ -157,9 +157,6 @@ input[class='button']:hover {
   height: 64px;
 }
 
-.paper {
-  
-}
  
 @keyframes cycle-items {
   to {
@@ -229,7 +226,7 @@ note{
 #text2 {
 
     width: 40%;
-    height: 14em;
+    height: 16em;
     margin: 1em auto;
     padding: 1em;
     border-radius: 2px;
@@ -238,6 +235,26 @@ note{
     transform: rotate(-5deg);
     background-color: rgb(250, 230, 210);
     font-family: 'Space Mono', monospace;
+    z-index: 99;
+  }
+
+  .note2 {
+    position: relative;
+  }
+  .text2 {
+    position: absolute;
+  }
+  .paper {
+    z-index: 9;
+    float: right;
+    transform: rotate(15deg)
+  }
+
+  .paper:hover {
+    z-index: 9;
+    float: right;
+    transition: transform 330ms ease-in-out;
+    transform: translate(75px, -2vh);
   }
 
   #github {
