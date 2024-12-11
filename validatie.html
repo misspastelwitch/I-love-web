@@ -6,6 +6,18 @@
     </fieldset>
   </form>
 
+  <form>
+    <fieldset>
+      <legend>Selecteer een optie</legend>
+  
+      <label><input type="radio" name="option" required> Optie 1</label>
+      <label><input type="radio" name="option" required> Optie 2</label>
+      <label><input type="radio" name="option" required> Optie 3</label>
+  
+      <input type="submit" value="Verstuur!">
+    </fieldset>
+  </form>
+
 <!-- JavaScript -->
 
   <script type="module">
@@ -20,3 +32,11 @@
     
     });
     </script>
+
+<!-- CSS -->
+
+<style>
+    fieldset:has(:user-invalid) {
+      background: #faa;
+    }
+    </style>
