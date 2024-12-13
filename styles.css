@@ -61,6 +61,7 @@ textarea {
 header {
   text-align: center;
   margin: 1em auto;
+  margin-top: 250px;
 }
 
 .section {
@@ -117,28 +118,13 @@ input[class='button']:hover {
   transform: scale(1.08);
 }
 
-#bigblank2 {
-  background-color: unset;
-  width: 40%;
-  height: 13em;
-}
-#bigblank {
-  background-color: unset;
-  width: 40%;
-  height: 10em;
-}
-#blank {
-  background-color: unset;
-  width: 40%;
-  height: 7em;
-}
-
 /* funky sentences */
 .wrapper {
   padding: 1em;
   width: 400px;
   margin: 0 auto;
   text-align: start;
+  margin-bottom: 400px;
 }
 
 .container {
@@ -157,7 +143,7 @@ input[class='button']:hover {
   height: 64px;
 }
 
- 
+
 @keyframes cycle-items {
   to {
     transform: translateY(-80%)
@@ -168,58 +154,64 @@ input[class='button']:hover {
 
 #girl {
   float: right;
-  
+  margin-bottom: 100px;
+}
+
+#window {
+  float: none;
+  margin-left: 5%;
+
+  transform: rotate(15deg);
+  @media (min-width: 600px) {
+    float: right;
   }
-  #window {
-    float:none;
-    margin-left:5%;
-    transform: rotate(15deg)
-    @media (min-width: 600px) {
-      float: right;
-  }
-    }
-    #polaroid {
-      float: right;
-      transform: rotate(350deg)
-      }
-      #stickerbundle {
-        float: left;
-        transform: rotate(350deg)
-        }
-        #stickerbundle2 {
-          float: right;
-          }
-  
-      
+}
+
+#polaroid {
+  float: right;
+  transform: rotate(350deg)
+}
+
+#stickerbundle {
+  float: left;
+  transform: rotate(350deg)
+  margin-bottom: 100px;
+}
+
+#stickerbundle2 {
+  float: right;
+}
+
+
 /*sticky tape*/
 
-note{
-    position: absolute;
-    background: url('./docs/assets/washitape3.png') center/cover no-repeat;
-    width: 20%;
-    height: 20%;
-    top: -10%;
-    left:50%;
-    transform: translateX(-50%);
-  }
+note {
+  position: absolute;
+  background: url('./docs/assets/washitape3.png') center/cover no-repeat;
+  width: 20%;
+  height: 20%;
+  top: -10%;
+  left: 50%;
+  transform: translateX(-50%);
+}
 
-  .note2 {
-    position: relative;
-  }
+.note2 {
+  position: relative;
+}
 
-  .note::after {
-    content: '';
-    position: absolute;
-    background: url('./docs/assets/washitape3.png') center/cover no-repeat;
-    width: 20%;
-    height: 15%;
-    top: -10%;
-    left:50%;
-    transform: translateX(-50%);
-      }
+.note::after {
+  content: '';
+  position: absolute;
+  background: url('./docs/assets/washitape3.png') center/cover no-repeat;
+  width: 20%;
+  height: 15%;
+  top: -10%;
+  left: 50%;
+  transform: translateX(-50%);
+}
 
 /*  Post-it one  */
-    #text1 {
+#text1 {
   width: 60%;
   height: 100%;
   margin: 1em auto;
@@ -229,116 +221,127 @@ note{
   font-family: 'Space Mono', monospace;
 }
 
-    /*  Post-it two  */
+/*  Post-it two  */
 
-    #text2 {
+#text2 {
 
-    width: 40%;
-    height: 100%;
-    margin: 1em auto;
-    padding: 1em;
-    border-radius: 2px;
-    border: unset;
-    transform: skewY(-2deg);
-    transform: rotate(-5deg);
-    background-color: rgb(250, 230, 210);
-    font-family: 'Space Mono', monospace;
-    z-index: 99;
+  width: 40%;
+  height: 100%;
+  margin: 1em auto;
+  padding: 1em;
+  border-radius: 2px;
+  border: unset;
+  transform: skewY(-2deg);
+  transform: rotate(-5deg);
+  background-color: rgb(250, 230, 210);
+  font-family: 'Space Mono', monospace;
+  z-index: 99;
 
-    @media (max-width: 600px) {
-      width: 80%;
+  @media (max-width: 600px) {
+    width: 80%;
 
   }
-  }
-  .text2 {
-    position: absolute;
-  }
-  .paper {
-    z-index: 9;
-    float: right;
-    transform: rotate(15deg)
+}
+
+.text2 {
+  position: absolute;
+  margin-bottom: 400px;
+}
+
+.paper {
+  z-index: 9;
+  float: right;
+  transform: rotate(15deg)
+}
+
+.paperhover {
+  animation-name: paperhover;
+  animation-duration: 0.4s;
+  animation-iteration-count: 1;
+}
+
+@keyframes paperhover {
+
+  0% {
+    transform: scale(1, 1);
   }
 
-  .paperhover {
-    animation-name: paperhover;
-    animation-duration: 0.4s;
-    animation-iteration-count: 1;
-  }
-  
-   @keyframes paperhover {
-  
-    0% {
-      transform: scale(1, 1);
-    }
-    10% {
-      transform: scale(1, 0.95);
-    }
-    30% {
-      transform: scale(1, 0.9);
-    }
-    50% {
-      transform: scale(1, 0.85);
-    }
-    70% {
-      transform: scale(1, 0.9);
-    }
-    90% {
-      transform: scale(1, 0.95);
-    }
-    100% {
-      transform: scale(1, 1);
-    }
+  10% {
+    transform: scale(1, 0.95);
   }
 
-     #github {
-    margin-left: 32%;  
+  30% {
+    transform: scale(1, 0.9);
   }
 
-    /*  Post-it three  */
-
-    #text3 {
-    align-content: start;
-      width: 50%;
-      height: 100%;
-      margin: 1em auto;
-      padding: 1em;
-      border-radius: 2px;
-      border: unset;
-      transform: rotate(2deg);
-      background-color: lightgoldenrodyellow;
-      font-family: 'Space Mono', monospace;
+  50% {
+    transform: scale(1, 0.85);
   }
 
-  /*  Post-it four  */
-
-    #text4 {
-    align-content: start;
-          width: 50%;
-          height: 100%;
-          margin: 5% auto;
-          margin-right: 5%;
-          padding: 2%;
-          border-radius: 2px;
-          transform: rotate(-4deg);
-          background-color: rgb(195, 203, 255);
-          font-family: 'Space Mono', monospace;
-          float: right;
-          
-          
+  70% {
+    transform: scale(1, 0.9);
   }
 
-  @media (max-width: 500px) {
-    .note {
-        flex: 1 1 100%;
-        max-width: 100%;
-        float: none;
-        align-content: center;
-        box-sizing: border-box;
-    }
+  90% {
+    transform: scale(1, 0.95);
   }
-  /*  footer  */
-   footer {
-      text-align: start;
-      line-height: 7em;
-      float: left;
+
+  100% {
+    transform: scale(1, 1);
   }
+}
+
+#github {
+  margin-left: 32%;
+  margin-bottom: 50px;
+}
+
+/*  Post-it three  */
+
+#text3 {
+  align-content: start;
+  width: 50%;
+  height: 100%;
+  margin: 1em auto;
+  padding: 1em;
+  border-radius: 2px;
+  border: unset;
+  transform: rotate(2deg);
+  background-color: lightgoldenrodyellow;
+  font-family: 'Space Mono', monospace;
+}
+
+/*  Post-it four  */
+
+#text4 {
+  align-content: start;
+  width: 50%;
+  height: 100%;
+  margin: 5% auto;
+  margin-right: 5%;
+  padding: 2%;
+  border-radius: 2px;
+  transform: rotate(-4deg);
+  background-color: rgb(195, 203, 255);
+  font-family: 'Space Mono', monospace;
+  float: right;
+
+
+}
+
+@media (max-width: 500px) {
+  .note {
+    flex: 1 1 100%;
+    max-width: 100%;
+    float: none;
+    align-content: center;
+    box-sizing: border-box;
+  }
+}
+
+/*  footer  */
+footer {
+  text-align: start;
+  line-height: 7em;
+  float: left;
+}
