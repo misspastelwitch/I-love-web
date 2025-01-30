@@ -8,6 +8,16 @@
 //}
 //paper.addEventListener('animationend', paperhoverHandler)
 
+/* Automatic scroll up*/
+$(function() {
+  $('.scroll-up').click (function() {
+    $('html, body').animate({scrollTop: document.body.scrollHeight }, 'slow');
+    return false;
+  });
+});
+
+
+/* Cursor */
 var canvas = document.getElementById('paint');
 var ctx = canvas.getContext('2d');
  
