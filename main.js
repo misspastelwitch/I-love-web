@@ -16,6 +16,15 @@ $(function() {
   });
 });
 
+/* Automatic scroll down*/
+$(function() {
+  $('.scroll-down').click (function() {
+    $('html, body').animate({window.scrollTo 0, document.body.scrollHeight }, 'slow');
+    return false;
+  });
+});
+
+
 
 /* Cursor */
 var canvas = document.getElementById('paint');
