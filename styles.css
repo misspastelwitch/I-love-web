@@ -286,8 +286,9 @@ input[class='button']:hover {
 
 #bunny {
   float: left;
-  margin-left: 5%;
+  margin-left: 2%;
   margin-bottom: 10%;
+  margin-top: 5%;
   transform: rotate(-7deg);
 
 }
@@ -355,7 +356,7 @@ note {
 /*  Post-it one  */
 #text1 {
   width: 60%;
-  height: 80%;
+  height: 100%;
   margin: 1em auto;
   padding: 1em;
   border-radius: 2px;
